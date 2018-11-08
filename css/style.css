@@ -1,3 +1,16 @@
 h2{
     color: brown;
 }
+
+p {
+    color: brown;
+}
+
+p:not(:first-child) {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div {
+    color: blueviolet;
+}
