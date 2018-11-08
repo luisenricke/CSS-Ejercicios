@@ -1,16 +1,16 @@
-h2{
-    color: brown;
+
+
+.red {
+    color: red;
 }
 
-p {
-    color: brown;
+.blue {
+    color: blue;
 }
-
-p:not(:first-child) {
-    font-size: 24px;
-    font-weight: bold;
+#one {
+    font-size: 200%;
+    color:yellow;
 }
-
-div {
-    color: blueviolet;
+.smallStuff{
+    font-size: 8px;
 }
