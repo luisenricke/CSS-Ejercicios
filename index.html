@@ -7,12 +7,28 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
     <style>
+        /**
         h1 {
             color: blue;
+        }*/
+        
+        p{
+            color: brown;
         }
+
+        p:not(:first-child){
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        div{
+            color: blueviolet;
+        }
+
     </style>
 </head>
 <body>
+    <!--
     <h1 style="color:green">Test Text1</h1>
     <h1 style="font-family: Arial, Helvetica, sans-serif">Test Text2</h1>
     <h2>Test Text3</h2>
@@ -30,5 +46,20 @@
         </div>
 
     </div>
+
+    -->
+
+    <p>Test Text 1</p>
+    <p>Test Text 2</p>
+    <p>Test Text 3</p>
+    <p>Test Text 4</p>
+    <div>
+        <p>Test Text 5</p>
+        <div>Test1</div>
+        <div>Test2</div>
+        <div> <p>Test1</p></div>
+        <div> <p>Test2</p></div>
+    </div>
+
 </body>
 </html>
